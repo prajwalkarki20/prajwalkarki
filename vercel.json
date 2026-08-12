@@ -1,0 +1,17 @@
+{
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": {
+    "MONGODB_URI": {
+      "description": "MongoDB connection string"
+    },
+    "JWT_SECRET": {
+      "description": "JWT secret for authentication"
+    },
+    "NEXT_PUBLIC_API_URL": {
+      "description": "Public API URL"
+    }
+  }
+}
