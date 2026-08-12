@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br /><br />
+ 
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+ 
+      <!-- Age -->
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required />
+      <br /><br />
+ 
+      <!-- Phone Number -->
+      <label for="phone">Phone Number:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required
+      />
+      <br /><br />
+ 
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <br /><br />
+ 
+      <!-- Date of Birth -->
+ 
+      <label for="date">Date of Birth:</label>
+      <input type="date" id="date" name="date" required />
+      <br /><br />
+ 
+      <!-- Gender -->
+      <h4>Gender:</h4>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" required />
+      <label for="other">Other</label>
+      <br /><br />
+ 
+      <!-- Address -->
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+      <br /><br />
+ 
+      <!-- Hobbies -->
+      <label for="hobby">Hobbies:</label>
+      <input type="checkbox" id="reading" name="hobby" value="reading" />
+      <label for="reading">Reading</label>
+      <input type="checkbox" id="traveling" name="hobby" value="traveling" />
+      <label for="traveling">Traveling</label>
+      <input type="checkbox" id="sports" name="hobby" value="Coding" />
+      <label for="sports">Coding</label>
+      <br /><br />
+ 
+      <!-- Upload CV -->
+      <label for="file">Upload CV:</label>
+      <input type="file" id="file" name="file" />
+      <br /><br />
+ 
+      <!-- Country -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Select a country</option>
+        <option value="nepal">Nepal</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select>
+      <br /><br />
+ 
+      <!-- Favorite Color -->
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" name="color" required />
+      <br /><br />
+ 
+      <!-- Range -->
+      <label for="range">Select a range:</label>
+      <input
+        type="range"
+        id="range"
+        name="range"
+        value="10"
+        min="0"
+        max="100"
+        required
+      />
+      <br /><br />
+ 
+      <!-- Button -->
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+ 
+      </fieldset>
+    </form>
+ 
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg" />
+    </audio>
+    <video controls autoplay muted loop>
+        <source src="https://youtu.be/q-_ezD9Swz4" type="video/mp4" />
+    </video>
+    <iframe width="1337" height="752" src="https://www.youtube.com/embed/q-_ezD9Swz4" title="Learn To Code Like a GENIUS and Not Waste Time" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </body>
+</html>
+ 
